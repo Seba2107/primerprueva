@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2? family= Kalam:wght@700 & display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 4px solid blue;
+    width: 100%;
+    height: 150vh;
+    /* background-image: url(img/festejos_x1x_1.jpg_966076397.webp);
+    background-size:cover; */
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "primera primera primera" 
+    "" 
+    "";
+}
+
+.hamburguesa{
+    grid-area: primera;
+    border: 2px solid green;
+    width: 100%;
+}
+
+/* 
+h1{
+   
+    font-family: 'Kalam', cursive;
+    background-image: url(img/BANDERA\ ARGENTINA.jfif);
+    background-size: cover;
+}
+.container-texto{
+
+    width: 500px;
+    height: 100px;
+} */
